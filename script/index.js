@@ -1,4 +1,5 @@
 const qs = document.querySelectorAll(".q");
+const cube = document.querySelector(".cube-desktop-logo");
 
 qs.forEach((q) =>
   q.addEventListener("click", function () {

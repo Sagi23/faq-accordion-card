@@ -81,6 +81,11 @@
   left: 0;
   width: 100%;
   text-align: center;
+  color: white;
+  a {
+    text-decoration: none;
+    color: rgb(255, 145, 0);
+  }
 }
 
 @media (min-width: 1440px) {
@@ -88,6 +93,7 @@
     font-size: 16px;
   }
   .attribution {
+    position: none;
     margin-top: 10.75em;
     text-align: center;
   }
