@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+:root {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#af67e9), to(#6565e7));
+  background-image: linear-gradient(#af67e9, #6565e7);
+  background-repeat: no-repeat;
+  font-family: "Kumbh Sans";
+  width: 100%;
+  height: 100%;
+  font-size: 12px;
+}
+
+.main-grid {
+  background-color: white;
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  width: 80%;
+  margin: 13em auto;
+  padding: 10em 2em 4em;
+  border-radius: 2em;
+  -webkit-box-shadow: 0 1em 1em rgba(72, 72, 157, 0.644);
+          box-shadow: 0 1em 1em rgba(72, 72, 157, 0.644);
+}
+
+.illust {
+  position: relative;
+}
+
+.mobile-logo {
+  position: absolute;
+  margin-top: -19em;
+  margin-left: -12.8em;
+}
+
+.bg-mobile-logo {
+  position: absolute;
+  margin-left: -10.8em;
+  margin-top: -10em;
+}
+
+.hide p {
+  display: none;
+}
+
+.rotate span {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.q {
+  width: 100%;
+  -ms-grid-column-align: left;
+      justify-self: left;
+  border-bottom: 1px solid #e7e7e9;
+  color: #4a4b5e;
+}
+
+.q h4 {
+  font-weight: 400;
+}
+
+.q h4:hover {
+  color: #f47c57;
+  cursor: pointer;
+}
+
+.q h4 span {
+  float: right;
+}
+
+.q p {
+  line-height: 1.7em;
+}
+
+.clicked h4 {
+  font-weight: 700;
+  color: #1d1e35;
+}
+/*# sourceMappingURL=style.css.map */
